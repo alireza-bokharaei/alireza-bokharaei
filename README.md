@@ -2,8 +2,9 @@
 
 # 👋 سلام! من علیرضا بخارائی هستم / Hi, I'm Alireza Bakhari
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E8B57&center=true&vCenter=true&width=600&lines=Computer+Science+Student+%40+University+of+Oxford;Python+Developer+%7C+Linux+%7C+Networking;Cybersecurity+Enthusiast+%7C+Bug+Bounty;AI+%26+Automation+with+n8n;Open+Source+Contributor)](https://git.io/typing-svg)
-
+<div align="center">
+  <img src="https://your-repo-link/raw/main/banner.png" alt="Alireza Bakhari Banner" width="100%">
+</div>
 </div>
 
 ---
@@ -170,7 +171,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/alireza-bakhari)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alireza-bakhari)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alireza.bakhari@cs.ox.ac.uk)
-[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0000-0000-0000)
 
 </div>
 
