@@ -3,9 +3,11 @@
 # 👋 سلام! من علیرضا بخارائی هستم / Hi, I'm Alireza Bakhari
 
 <div align="center">
-  <img src="https://your-repo-link/raw/main/banner.png" alt="Alireza Bakhari Banner" width="100%">
-</div>
-</div>
+
+<!-- متن تایپی با رنگ نئونی روشن -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Computer+Science+Student+%40+University+of+Oxford;Python+Developer+%7C+Linux+%7C+Networking;Cybersecurity+Enthusiast+%7C+Bug+Bounty;AI+%26+Automation+with+n8n;Open+Source+Contributor" />
+
+</div></div>
 
 ---
 
