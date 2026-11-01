@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 84" width="300" height="84">
+  <defs>
+    <linearGradient id="pportfolio-dark-40370" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#273244"/><stop offset="1" stop-color="#111721"/></linearGradient>
+    <linearGradient id="dportfolio-dark-40370" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F8BB54"/><stop offset="0.55" stop-color="#F59E0B"/><stop offset="1" stop-color="#BF7B09"/></linearGradient>
+    <linearGradient id="sportfolio-dark-40370" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="aportfolio-dark-40370" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></linearGradient>
+    <radialGradient id="hportfolio-dark-40370" cx="0.5" cy="0.5" r="0.5"><stop offset="0.7" stop-color="#F59E0B" stop-opacity="0"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0.45"/></radialGradient>
+  </defs>
+  <rect x="5" y="9" width="290" height="70" rx="35" fill="#000000" opacity="0.4"/>
+  <rect x="4" y="6" width="292" height="70" rx="35" fill="url(#pportfolio-dark-40370)" stroke="#3E4B60" stroke-width="1.5"/>
+  <circle cx="46" cy="42" r="39" fill="url(#hportfolio-dark-40370)"/>
+  <circle cx="46" cy="42" r="30" fill="url(#dportfolio-dark-40370)"/>
+  <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.2"/>
+  <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#sportfolio-dark-40370)"/>
+  <g transform="translate(29.00,25.00) scale(1.4167)"><rect x="2.5" y="7" width="19" height="13" rx="2.5" fill="none" stroke="#18202E" stroke-width="2"/><path d="M9 7V5a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 15 5v2M2.5 12.5h19" fill="none" stroke="#18202E" stroke-width="2"/></g>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="700" fill="#F4F7FB">YOUR_WEBSITE</text>
+  <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#aportfolio-dark-40370)"/>
+</svg>

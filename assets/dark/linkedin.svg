@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 84" width="300" height="84">
+  <defs>
+    <linearGradient id="plinkedin-dark-27026" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#273244"/><stop offset="1" stop-color="#111721"/></linearGradient>
+    <linearGradient id="dlinkedin-dark-27026" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5394D4"/><stop offset="0.55" stop-color="#0A66C2"/><stop offset="1" stop-color="#085097"/></linearGradient>
+    <linearGradient id="slinkedin-dark-27026" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="alinkedin-dark-27026" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0A66C2"/><stop offset="1" stop-color="#0A66C2" stop-opacity="0"/></linearGradient>
+    <radialGradient id="hlinkedin-dark-27026" cx="0.5" cy="0.5" r="0.5"><stop offset="0.7" stop-color="#0A66C2" stop-opacity="0"/><stop offset="1" stop-color="#0A66C2" stop-opacity="0.45"/></radialGradient>
+  </defs>
+  <rect x="5" y="9" width="290" height="70" rx="35" fill="#000000" opacity="0.4"/>
+  <rect x="4" y="6" width="292" height="70" rx="35" fill="url(#plinkedin-dark-27026)" stroke="#3E4B60" stroke-width="1.5"/>
+  <circle cx="46" cy="42" r="39" fill="url(#hlinkedin-dark-27026)"/>
+  <circle cx="46" cy="42" r="30" fill="url(#dlinkedin-dark-27026)"/>
+  <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.2"/>
+  <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#slinkedin-dark-27026)"/>
+  <path transform="translate(29.00,25.00) scale(1.4167)" fill="#FFFFFF" fill-rule="evenodd" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#F4F7FB">LinkedIn</text>
+  <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#alinkedin-dark-27026)"/>
+</svg>

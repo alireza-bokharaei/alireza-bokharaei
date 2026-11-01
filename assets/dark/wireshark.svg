@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 84" width="300" height="84">
+  <defs>
+    <linearGradient id="pwireshark-dark-35054" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#273244"/><stop offset="1" stop-color="#111721"/></linearGradient>
+    <linearGradient id="dwireshark-dark-35054" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5CA1C1"/><stop offset="0.55" stop-color="#1679A7"/><stop offset="1" stop-color="#115E82"/></linearGradient>
+    <linearGradient id="swireshark-dark-35054" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="awireshark-dark-35054" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1679A7"/><stop offset="1" stop-color="#1679A7" stop-opacity="0"/></linearGradient>
+    <radialGradient id="hwireshark-dark-35054" cx="0.5" cy="0.5" r="0.5"><stop offset="0.7" stop-color="#1679A7" stop-opacity="0"/><stop offset="1" stop-color="#1679A7" stop-opacity="0.45"/></radialGradient>
+  </defs>
+  <rect x="5" y="9" width="290" height="70" rx="35" fill="#000000" opacity="0.4"/>
+  <rect x="4" y="6" width="292" height="70" rx="35" fill="url(#pwireshark-dark-35054)" stroke="#3E4B60" stroke-width="1.5"/>
+  <circle cx="46" cy="42" r="39" fill="url(#hwireshark-dark-35054)"/>
+  <circle cx="46" cy="42" r="30" fill="url(#dwireshark-dark-35054)"/>
+  <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.2"/>
+  <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#swireshark-dark-35054)"/>
+  <path transform="translate(29.00,25.00) scale(1.4167)" fill="#FFFFFF" fill-rule="evenodd" d="m2.95 0c-1.62 0-2.95 1.32-2.95 2.95v18.1c0 1.63 1.32 2.95 2.95 2.95h18.1c1.62 0 2.95-1.32 2.95-2.95v-18.1c-.00024-1.63-1.32-2.95-2.95-2.95zm0 1.09h18.1c1.04 0 1.85.818 1.85 1.86v14h-5.27c-.335-.796-2.57-6.47.283-10.9a.516.517 0 0 0-.443-.794c-5.24.0827-8.2 3.19-9.74 6.21-1.35 2.64-1.63 4.91-1.69 5.53h-4.95v-14c0-1.04.817-1.86 1.85-1.86zm13.6 5.24c-2.62 5.24.248 11.4.248 11.4a.516.517 0 0 0 .469.301h5.62v3.05c0 1.04-.817 1.86-1.85 1.86h-18.1c-1.04 0-1.85-.818-1.85-1.86v-3.05h5.39a.516.517 0 0 0 .514-.477s.226-2.8 1.66-5.62c1.34-2.62 3.67-5.17 7.91-5.57z"/>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#F4F7FB">Wireshark</text>
+  <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#awireshark-dark-35054)"/>
+</svg>

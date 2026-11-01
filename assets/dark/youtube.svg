@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 84" width="300" height="84">
+  <defs>
+    <linearGradient id="pyoutube-dark-24089" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#273244"/><stop offset="1" stop-color="#111721"/></linearGradient>
+    <linearGradient id="dyoutube-dark-24089" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF4C4C"/><stop offset="0.55" stop-color="#FF0000"/><stop offset="1" stop-color="#C70000"/></linearGradient>
+    <linearGradient id="syoutube-dark-24089" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ayoutube-dark-24089" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF0000"/><stop offset="1" stop-color="#FF0000" stop-opacity="0"/></linearGradient>
+    <radialGradient id="hyoutube-dark-24089" cx="0.5" cy="0.5" r="0.5"><stop offset="0.7" stop-color="#FF0000" stop-opacity="0"/><stop offset="1" stop-color="#FF0000" stop-opacity="0.45"/></radialGradient>
+  </defs>
+  <rect x="5" y="9" width="290" height="70" rx="35" fill="#000000" opacity="0.4"/>
+  <rect x="4" y="6" width="292" height="70" rx="35" fill="url(#pyoutube-dark-24089)" stroke="#3E4B60" stroke-width="1.5"/>
+  <circle cx="46" cy="42" r="39" fill="url(#hyoutube-dark-24089)"/>
+  <circle cx="46" cy="42" r="30" fill="url(#dyoutube-dark-24089)"/>
+  <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.2"/>
+  <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#syoutube-dark-24089)"/>
+  <path transform="translate(29.00,25.00) scale(1.4167)" fill="#FFFFFF" fill-rule="evenodd" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#F4F7FB">YouTube</text>
+  <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#ayoutube-dark-24089)"/>
+</svg>

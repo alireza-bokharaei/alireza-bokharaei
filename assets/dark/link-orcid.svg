@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 84" width="300" height="84">
+  <defs>
+    <linearGradient id="porcid-dark-80786" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#273244"/><stop offset="1" stop-color="#111721"/></linearGradient>
+    <linearGradient id="dorcid-dark-80786" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C1DD74"/><stop offset="0.55" stop-color="#A6CE39"/><stop offset="1" stop-color="#81A12C"/></linearGradient>
+    <linearGradient id="sorcid-dark-80786" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="aorcid-dark-80786" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A6CE39"/><stop offset="1" stop-color="#A6CE39" stop-opacity="0"/></linearGradient>
+    <radialGradient id="horcid-dark-80786" cx="0.5" cy="0.5" r="0.5"><stop offset="0.7" stop-color="#A6CE39" stop-opacity="0"/><stop offset="1" stop-color="#A6CE39" stop-opacity="0.45"/></radialGradient>
+  </defs>
+  <rect x="5" y="9" width="290" height="70" rx="35" fill="#000000" opacity="0.4"/>
+  <rect x="4" y="6" width="292" height="70" rx="35" fill="url(#porcid-dark-80786)" stroke="#3E4B60" stroke-width="1.5"/>
+  <circle cx="46" cy="42" r="39" fill="url(#horcid-dark-80786)"/>
+  <circle cx="46" cy="42" r="30" fill="url(#dorcid-dark-80786)"/>
+  <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.2"/>
+  <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#sorcid-dark-80786)"/>
+  <path transform="translate(29.00,25.00) scale(1.4167)" fill="#18202E" fill-rule="evenodd" d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#F4F7FB">YOUR_ORCID</text>
+  <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#aorcid-dark-80786)"/>
+</svg>
