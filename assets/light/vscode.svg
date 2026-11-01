@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 84" width="300" height="84">
+  <defs>
+    <linearGradient id="pvscode-light-70941" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E4EAF4"/></linearGradient>
+    <linearGradient id="dvscode-light-70941" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4CA2DB"/><stop offset="0.55" stop-color="#007ACC"/><stop offset="1" stop-color="#005F9F"/></linearGradient>
+    <linearGradient id="svscode-light-70941" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="avscode-light-70941" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#007ACC"/><stop offset="1" stop-color="#007ACC" stop-opacity="0"/></linearGradient>
+    <radialGradient id="hvscode-light-70941" cx="0.5" cy="0.5" r="0.5"><stop offset="0.7" stop-color="#007ACC" stop-opacity="0"/><stop offset="1" stop-color="#007ACC" stop-opacity="0.3"/></radialGradient>
+  </defs>
+  <rect x="5" y="9" width="290" height="70" rx="35" fill="#7F8BA3" opacity="0.22"/>
+  <rect x="4" y="6" width="292" height="70" rx="35" fill="url(#pvscode-light-70941)" stroke="#C7D0E0" stroke-width="1.5"/>
+  <circle cx="46" cy="42" r="39" fill="url(#hvscode-light-70941)"/>
+  <circle cx="46" cy="42" r="30" fill="url(#dvscode-light-70941)"/>
+  <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.2"/>
+  <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#svscode-light-70941)"/>
+  <path transform="translate(29.00,25.00) scale(1.4167)" fill="#FFFFFF" fill-rule="evenodd" d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#17202E">VS Code</text>
+  <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#avscode-light-70941)"/>
+</svg>

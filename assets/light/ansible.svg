@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 84" width="300" height="84">
+  <defs>
+    <linearGradient id="pansible-light-29729" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E4EAF4"/></linearGradient>
+    <linearGradient id="dansible-light-29729" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F34C4C"/><stop offset="0.55" stop-color="#EE0000"/><stop offset="1" stop-color="#BA0000"/></linearGradient>
+    <linearGradient id="sansible-light-29729" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="aansible-light-29729" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EE0000"/><stop offset="1" stop-color="#EE0000" stop-opacity="0"/></linearGradient>
+    <radialGradient id="hansible-light-29729" cx="0.5" cy="0.5" r="0.5"><stop offset="0.7" stop-color="#EE0000" stop-opacity="0"/><stop offset="1" stop-color="#EE0000" stop-opacity="0.3"/></radialGradient>
+  </defs>
+  <rect x="5" y="9" width="290" height="70" rx="35" fill="#7F8BA3" opacity="0.22"/>
+  <rect x="4" y="6" width="292" height="70" rx="35" fill="url(#pansible-light-29729)" stroke="#C7D0E0" stroke-width="1.5"/>
+  <circle cx="46" cy="42" r="39" fill="url(#hansible-light-29729)"/>
+  <circle cx="46" cy="42" r="30" fill="url(#dansible-light-29729)"/>
+  <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.2"/>
+  <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#sansible-light-29729)"/>
+  <path transform="translate(29.00,25.00) scale(1.4167)" fill="#FFFFFF" fill-rule="evenodd" d="M10.617 11.473l4.686 3.695-3.102-7.662zM12 0C5.371 0 0 5.371 0 12s5.371 12 12 12 12-5.371 12-12S18.629 0 12 0zm5.797 17.305c-.011.471-.403.842-.875.83-.236 0-.416-.09-.664-.293l-6.19-5-2.079 5.203H6.191L11.438 5.44c.124-.314.427-.52.764-.506.326-.014.63.189.742.506l4.774 11.494c.045.111.08.234.08.348-.001.009-.001.009-.001.023z"/>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#17202E">Ansible</text>
+  <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#aansible-light-29729)"/>
+</svg>

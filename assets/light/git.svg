@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 84" width="300" height="84">
+  <defs>
+    <linearGradient id="pgit-light-32164" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E4EAF4"/></linearGradient>
+    <linearGradient id="dgit-light-32164" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F48470"/><stop offset="0.55" stop-color="#F05032"/><stop offset="1" stop-color="#BB3E27"/></linearGradient>
+    <linearGradient id="sgit-light-32164" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="agit-light-32164" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F05032"/><stop offset="1" stop-color="#F05032" stop-opacity="0"/></linearGradient>
+    <radialGradient id="hgit-light-32164" cx="0.5" cy="0.5" r="0.5"><stop offset="0.7" stop-color="#F05032" stop-opacity="0"/><stop offset="1" stop-color="#F05032" stop-opacity="0.3"/></radialGradient>
+  </defs>
+  <rect x="5" y="9" width="290" height="70" rx="35" fill="#7F8BA3" opacity="0.22"/>
+  <rect x="4" y="6" width="292" height="70" rx="35" fill="url(#pgit-light-32164)" stroke="#C7D0E0" stroke-width="1.5"/>
+  <circle cx="46" cy="42" r="39" fill="url(#hgit-light-32164)"/>
+  <circle cx="46" cy="42" r="30" fill="url(#dgit-light-32164)"/>
+  <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.2"/>
+  <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#sgit-light-32164)"/>
+  <path transform="translate(29.00,25.00) scale(1.4167)" fill="#FFFFFF" fill-rule="evenodd" d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#17202E">Git</text>
+  <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#agit-light-32164)"/>
+</svg>

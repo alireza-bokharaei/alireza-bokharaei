@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 84" width="300" height="84">
+  <defs>
+    <linearGradient id="pterraform-light-87828" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E4EAF4"/></linearGradient>
+    <linearGradient id="dterraform-light-87828" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A37BD0"/><stop offset="0.55" stop-color="#7B42BC"/><stop offset="1" stop-color="#603393"/></linearGradient>
+    <linearGradient id="sterraform-light-87828" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="aterraform-light-87828" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7B42BC"/><stop offset="1" stop-color="#7B42BC" stop-opacity="0"/></linearGradient>
+    <radialGradient id="hterraform-light-87828" cx="0.5" cy="0.5" r="0.5"><stop offset="0.7" stop-color="#7B42BC" stop-opacity="0"/><stop offset="1" stop-color="#7B42BC" stop-opacity="0.3"/></radialGradient>
+  </defs>
+  <rect x="5" y="9" width="290" height="70" rx="35" fill="#7F8BA3" opacity="0.22"/>
+  <rect x="4" y="6" width="292" height="70" rx="35" fill="url(#pterraform-light-87828)" stroke="#C7D0E0" stroke-width="1.5"/>
+  <circle cx="46" cy="42" r="39" fill="url(#hterraform-light-87828)"/>
+  <circle cx="46" cy="42" r="30" fill="url(#dterraform-light-87828)"/>
+  <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.2"/>
+  <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#sterraform-light-87828)"/>
+  <path transform="translate(29.00,25.00) scale(1.4167)" fill="#FFFFFF" fill-rule="evenodd" d="M1.44 0v7.575l6.561 3.79V3.787zm21.12 4.227l-6.561 3.791v7.574l6.56-3.787zM8.72 4.23v7.575l6.561 3.787V8.018zm0 8.405v7.575L15.28 24v-7.578z"/>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#17202E">Terraform</text>
+  <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#aterraform-light-87828)"/>
+</svg>
