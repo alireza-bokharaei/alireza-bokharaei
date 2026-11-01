@@ -1,57 +1,56 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero.svg">
+  <img src="assets/light/hero.svg" alt="Alireza Bakhari - Computer Science Student at the University of Oxford" width="840">
+</picture>
+
 # 👋 سلام! من علیرضا بخارائی هستم / Hi, I'm Alireza Bakhari
 
-<div align="center">
-
-<!-- متن تایپی با رنگ نئونی روشن -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Computer+Science+Student+%40+University+of+Oxford;Python+Developer+%7C+Linux+%7C+Networking;Cybersecurity+Enthusiast+%7C+Bug+Bounty;AI+%26+Automation+with+n8n;Open+Source+Contributor" />
-
-</div></div>
+</div>
 
 ---
 
 ## 🎓 درباره من / About Me
 
-<details>
-<summary><b>🇮🇷 فارسی</b></summary>
-<br>
+<div dir="rtl" align="right">
 
-**دانشجوی علوم کامپیوتر در دانشگاه اکسفورد** با تمرکز بر توسعه نرم‌افزار، زیرساخت‌ها و امنیت سایبری.
+**دانشجوی علوم کامپیوتر در دانشگاه آکسفورد** با تمرکز بر توسعه نرم‌افزار، زیرساخت و امنیت سایبری.
 
-🔭 **فعالت‌های فعلی:**
-- توسعه با **Python** (FastAPI, Django, CLI Tools)
-- مدیریت سرور و **Linux** (Ubuntu, Debian, Arch) + شبکه (Routing, Firewall, VPN)
-- **ماشین‌های مجازی** (Proxmox, VMware, KVM, Vagrant) برای لابراتوارهای تست
-- یادگیری **تست نفوذ، باگ بانتی و امنیت شبکه/سرور** (OSCP path, TryHackMe, HackTheBox)
-- ساخت **ایجنت‌های هوش مصنوعی آفلاین** و **اتوماسیون با n8n** (Self-hosted)
+🔭 **فعالیت‌های فعلی:**
+
+- توسعه با **Python** (FastAPI، Django، ابزارهای CLI)
+- مدیریت سرور **Linux** (Ubuntu، Debian، Arch) و شبکه
+- ماشین‌های مجازی (**Proxmox**، **VMware**) برای محیط‌های تست
+- یادگیری **تست نفوذ** و **Bug Bounty**
+- ساخت **ایجنت‌های هوش مصنوعی آفلاین** و **اتوماسیون با n8n**
 
 🎯 **اهداف:**
-- کسب مجوز **OSCP / OSWE** و ورود به دنیای باگ بانتی حرفه‌ای
-- مشارکت در پروژه‌های **اوپن‌سورس امنیتی** و **ابزارهای اتوماسیون**
-- Abschluss پایان‌نامه در حوزه **AI-driven Security Automation**
+
+- دریافت گواهینامه‌های **OSCP** و **OSWE** و ورود حرفه‌ای به Bug Bounty
+- مشارکت در **ابزارهای امنیتی و چارچوب‌های اتوماسیون متن‌باز**
+- پژوهش درباره **اتوماسیون امنیت مبتنی بر هوش مصنوعی**
 
 💡 **فلسفه:** «کد تمیز، معماری مقیاس‌پذیر، یادگیری بی‌پایان»
 
-</details>
+</div>
 
 <details open>
 <summary><b>🇬🇧 English</b></summary>
-<br>
 
-**Computer Science Student at the University of Oxford** focusing on Software Development, Infrastructure & Cybersecurity.
+**Computer Science Student at the University of Oxford** focusing on software development, infrastructure and cybersecurity.
 
-🔭 **Current Focus:**
-- **Python Development** (FastAPI, Django, CLI Tools, AsyncIO)
-- **Linux SysAdmin & Networking** (Ubuntu/Debian/Arch, Routing, Firewalls, VPN, VLANs)
-- **Virtualization** (Proxmox, VMware, KVM, Vagrant) for homelab & security labs
-- Learning **Penetration Testing, Bug Bounty & Network/Server Security** (OSCP path, TryHackMe, HackTheBox)
-- Building **Offline AI Agents** & **Automation with n8n** (Self-hosted)
+🔭 **Current focus:**
+- **Python development** (FastAPI, Django, CLI tools, AsyncIO)
+- **Linux SysAdmin & networking** (Ubuntu/Debian/Arch, routing, firewalls, VPN, VLANs)
+- **Virtualization** (Proxmox, VMware, KVM, Vagrant) for homelab and security labs
+- Learning **penetration testing, bug bounty and server security** (OSCP path, TryHackMe, HackTheBox)
+- Building **offline AI agents** and **automation with n8n** (self-hosted)
 
 🎯 **Goals:**
-- Achieve **OSCP / OSWE** certifications & transition to professional Bug Bounty
-- Contribute to **Open Source Security Tools** & **Automation Frameworks**
-- Thesis on **AI-driven Security Automation**
+- Earn **OSCP / OSWE** and move into professional bug bounty
+- Contribute to **open-source security tools** and **automation frameworks**
+- Research on **AI-driven security automation**
 
 💡 **Philosophy:** "Clean Code, Scalable Architecture, Continuous Learning"
 
@@ -61,77 +60,167 @@
 
 ## 🛠 تکنولوژی‌ها و ابزارها / Tech Stack
 
-<div align="center">
+### 🐍 زبان‌ها و هسته / Languages & Core
 
-### 🐍 Languages & Core
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/python.svg"><img src="assets/light/python.svg" alt="Python" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/bash.svg"><img src="assets/light/bash.svg" alt="Bash" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/go.svg"><img src="assets/light/go.svg" alt="Go" width="220"></picture>
+</p>
 
-### 🐧 Linux & Infrastructure
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/javascript.svg"><img src="assets/light/javascript.svg" alt="JavaScript" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/mysql.svg"><img src="assets/light/mysql.svg" alt="SQL" width="220"></picture>
+</p>
 
-### 🌐 Networking & Security
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=white)
-![OpenVPN](https://img.shields.io/badge/OpenVPN-E6522C?style=for-the-badge&logo=openvpn&logoColor=white)
-![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
+### 🐧 لینوکس و زیرساخت / Linux & Infrastructure
 
-### 🤖 AI & Automation
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/linux.svg"><img src="assets/light/linux.svg" alt="Linux" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ubuntu.svg"><img src="assets/light/ubuntu.svg" alt="Ubuntu" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/debian.svg"><img src="assets/light/debian.svg" alt="Debian" width="220"></picture>
+</p>
 
-### 🔧 DevOps & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-326CE5?style=for-the-badge&logo=github-actions&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
-![tmux](https://img.shields.io/badge/tmux-1BB0F5?style=for-the-badge&logo=tmux&logoColor=white)
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/proxmox.svg"><img src="assets/light/proxmox.svg" alt="Proxmox" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/docker.svg"><img src="assets/light/docker.svg" alt="Docker" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/kubernetes.svg"><img src="assets/light/kubernetes.svg" alt="Kubernetes" width="220"></picture>
+</p>
 
-</div>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/terraform.svg"><img src="assets/light/terraform.svg" alt="Terraform" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ansible.svg"><img src="assets/light/ansible.svg" alt="Ansible" width="220"></picture>
+</p>
+
+### 🌐 شبکه و امنیت / Networking & Security
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/wireshark.svg"><img src="assets/light/wireshark.svg" alt="Wireshark" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nmap.svg"><img src="assets/light/nmap.svg" alt="Nmap" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/burpsuite.svg"><img src="assets/light/burpsuite.svg" alt="Burp Suite" width="220"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/metasploit.svg"><img src="assets/light/metasploit.svg" alt="Metasploit" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/openvpn.svg"><img src="assets/light/openvpn.svg" alt="OpenVPN" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/wireguard.svg"><img src="assets/light/wireguard.svg" alt="WireGuard" width="220"></picture>
+</p>
+
+### 🤖 هوش مصنوعی و اتوماسیون / AI & Automation
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/n8n.svg"><img src="assets/light/n8n.svg" alt="n8n" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ollama.svg"><img src="assets/light/ollama.svg" alt="Ollama" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/langchain.svg"><img src="assets/light/langchain.svg" alt="LangChain" width="220"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/huggingface.svg"><img src="assets/light/huggingface.svg" alt="Hugging Face" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/pytorch.svg"><img src="assets/light/pytorch.svg" alt="PyTorch" width="220"></picture>
+</p>
+
+### 🔧 ابزارهای توسعه / DevOps & Tools
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/git.svg"><img src="assets/light/git.svg" alt="Git" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/githubactions.svg"><img src="assets/light/githubactions.svg" alt="GitHub Actions" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cicd.svg"><img src="assets/light/cicd.svg" alt="CI/CD" width="220"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/vscode.svg"><img src="assets/light/vscode.svg" alt="VS Code" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/vim.svg"><img src="assets/light/vim.svg" alt="Vim" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/tmux.svg"><img src="assets/light/tmux.svg" alt="tmux" width="220"></picture>
+</p>
 
 ---
 
 ## 🚀 پروژه‌های شاخص / Featured Projects
 
-| پروژه | توضیح / Description | تکنولوژی / Stack | وضعیت |
-|--------|---------------------|-------------------|-------|
-| **[SecAuto](https://github.com/alireza-bakhari/secauto)** | فریم‌ورک اتوماسیون امنیت: اسکن، تست و بررسی، گزارش‌گیری | Python, n8n, Docker, PostgreSQL | 🟢 Active |
-| **[OfflineAI-Agents](https://github.com/alireza-bakhari/offline-ai-agents)** | ایجنت‌های محلی با Ollama + LangChain (بدون اینترنت) | Python, Ollama, LangChain, FastAPI | 🟢 Active |
-| **[NetRecon](https://github.com/alireza-bakhari/netrecon)** | ابزار کشف شبکه و آسیب‌پذیری برای Bug Bounty | Nmap, Nuclei, SQLite | 🔴 Planning |
-| **[PySecTools](https://github.com/alireza-bakhari/pysectools)** | کتابخانه ابزارهای امنیتی پایتون (Hash, Crypto, Enum) | Python, Click, Rich | 🟢 Stable |
 
-> 📌 **نکته:** مخازن بالا را جایگزین با مخازن واقعی خودتان کنید. اگر هنوز ندارید، همین اسامی را رزرو کنید (Create repository با همین نام‌ها).
+<table align="center" width="100%">
+  <thead>
+    <tr>
+      <th>پروژه / Project</th>
+      <th>توضیح / Description</th>
+      <th>تکنولوژی / Stack</th>
+      <th>وضعیت / Status</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/secauto">SecAuto</a></b></td>
+    <td align="right" dir="rtl">فریم‌ورک اتوماسیون امنیت: اسکن، انومراسیون و گزارش‌گیری</td>
+    <td align="center"><code>Python, n8n, Docker, PostgreSQL</code></td>
+    <td align="center">🟢 فعال / Active</td>
+  </tr>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/offline-ai-agents">OfflineAI-Agents</a></b></td>
+    <td align="right" dir="rtl">ایجنت‌های محلی با Ollama و LangChain (بدون نیاز به اینترنت)</td>
+    <td align="center"><code>Python, Ollama, LangChain, FastAPI</code></td>
+    <td align="center">🟢 فعال / Active</td>
+  </tr>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/homelab-infra">Homelab-Infra</a></b></td>
+    <td align="right" dir="rtl">کدهای Terraform و Ansible برای هوم‌لب Proxmox</td>
+    <td align="center"><code>Terraform, Ansible, Proxmox</code></td>
+    <td align="center">🟡 در حال کار / WIP</td>
+  </tr>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/netrecon">NetRecon</a></b></td>
+    <td align="right" dir="rtl">ابزار کشف شبکه و آسیب‌پذیری برای Bug Bounty</td>
+    <td align="center"><code>Go, Nmap, Nuclei, SQLite</code></td>
+    <td align="center">🔴 برنامه‌ریزی / Planning</td>
+  </tr>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/pysectools">PySecTools</a></b></td>
+    <td align="right" dir="rtl">کتابخانه ابزارهای امنیتی پایتون (Hash, Crypto, Enum)</td>
+    <td align="center"><code>Python, Click, Rich</code></td>
+    <td align="center">🟢 پایدار / Stable</td>
+  </tr>
+  </tbody>
+</table>
+
+
+---
+
+## 👥 آشنایی با همکاران / Meet the Team
+
+<div dir="rtl" align="center">
+
+با همکارم **[نام همکار]**، محتوای آموزشی رایگان در حوزه **AI و اتوماسیون** تولید می‌کنیم.
+
+</div>
+
+<p align="center"><b>[نام همکار]</b> — <sub>[نقش / تخصص]</sub></p>
+
+
+<p align="center">
+  <a href="https://t.me/TELEGRAM_ID"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-team-telegram.svg"><img src="assets/light/link-team-telegram.svg" alt="Telegram" width="220"></picture></a>
+  <a href="https://instagram.com/INSTAGRAM_ID"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-team-instagram.svg"><img src="assets/light/link-team-instagram.svg" alt="Instagram" width="220"></picture></a>
+</p>
 
 ---
 
 ## 📚 کانال‌های آموزشی / Educational Channels
 
-<div align="center">
+<p align="center">
+  <a href="YOUR_YOUTUBE_LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-youtube.svg"><img src="assets/light/link-channel-youtube.svg" alt="YouTube" width="220"></picture></a>
+  <a href="YOUR_TELEGRAM_LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-telegram.svg"><img src="assets/light/link-channel-telegram.svg" alt="Telegram" width="220"></picture></a>
+</p>
 
-**با همکارانم، محتوای آموزشی رایگان در حوزه AI و اتوماسیون تولید می‌کنیم:**
+<p align="center">
+  <a href="YOUR_INSTAGRAM_LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-instagram.svg"><img src="assets/light/link-channel-instagram.svg" alt="Instagram" width="220"></picture></a>
+</p>
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@your-channel-name)
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/your-channel-name)
+<div dir="rtl" align="right">
 
-**موضوعات پوشش داده شده:**
-- 🤖 **هوش مصنوعی آفلاین (Offline AI):** Ollama, Llama.cpp, Local LLMs, RAG
-- 🤖 **ایجنت‌های هوشمند:** LangChain, LangGraph, AutoGen, CrewAI (Self-hosted)
-- ⚡ **اتوماسیون با n8n:** Self-hosting, Custom Nodes, Webhooks, AI Workflows
-- 🔒 **امنیت در AI/Automation:** Prompt Injection, Data Privacy, Secure Deployments
+**موضوعات پوشش داده‌شده:**
+
+- 🤖 **هوش مصنوعی آفلاین:** Ollama، Llama.cpp، مدل‌های محلی، RAG
+- 🧠 **ایجنت‌های هوشمند:** LangChain، LangGraph، AutoGen، CrewAI (Self-hosted)
+- ⚡ **اتوماسیون با n8n:** Self-hosting، Custom Nodes، Webhooks، AI Workflows
+- 🔒 **امنیت در AI و اتوماسیون:** Prompt Injection، Data Privacy، Secure Deployments
 
 </div>
 
@@ -139,78 +228,64 @@
 
 ## 📊 آمار گیت‌هاب / GitHub Stats
 
-<div align="center">
 
-![Alireza's GitHub Stats](https://github-readme-stats.vercel.app/api?username=alireza-bakhari&show_icons=true&theme=tokyonight&locale=fa&count_private=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alireza-bakhari&layout=compact&theme=tokyonight&langs_count=8)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=alireza-bakhari&theme=tokyonight&locale=fa)
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-tan.vercel.app/api?username=ndnimanima&show_icons=true&theme=tokyonight&locale=fa&hide_border=true">
+    <img src="https://github-readme-stats-eight-tan.vercel.app/api?username=ndnimanima&show_icons=true&theme=default&locale=fa&hide_border=true" alt="GitHub Stats for ndnimanima" width="440">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-tan.vercel.app/api/top-langs/?username=ndnimanima&layout=compact&theme=tokyonight&langs_count=8&hide_border=true">
+    <img src="https://github-readme-stats-eight-tan.vercel.app/api/top-langs/?username=ndnimanima&layout=compact&theme=default&langs_count=8&hide_border=true" alt="Top Languages for ndnimanima" width="440">
+  </picture>
+</p>
 
 ---
 
 ## 🏆 گواهی‌نامه‌ها و پیشرفت / Certifications & Progress
 
-<div align="center">
-
-| گواهی / Cert | وضعیت / Status | هدف / Target |
-|--------------|----------------|--------------|
-| **OSCP** (OffSec Certified Professional) | 📚 در حال مطالعه / Studying | Q2 2027 |
-| **OSWE** (OffSec Web Expert) | 📅 برنامه‌ریزی / Planned | 2027 |
-| **eJPT / PNPT** | ✅ conseguido / Done | — |
-| **CompTIA Security+** | ✅ conseguido / Done | — |
-| **AWS Solutions Architect** | 📚 در حال مطالعه / Studying | Q4 2026 |
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/dark/certs.svg">
+    <img src="assets/light/certs.svg" alt="Certifications and progress: OSCP, OSWE, eJPT/PNPT, CompTIA Security+, AWS SA" width="840">
+  </picture>
+</p>
 
 ---
 
 ## 🌐 پورتفولیو و ارتباط / Portfolio & Contact
 
-<div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://alireza-bakhari.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/alireza-bakhari)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alireza-bakhari)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alireza.bakhari@cs.ox.ac.uk)
+<p align="center">
+  <a href="YOUR_PORTFOLIO"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-portfolio.svg"><img src="assets/light/link-portfolio.svg" alt="Portfolio" width="220"></picture></a>
+  <a href="YOUR_LINKEDIN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-linkedin.svg"><img src="assets/light/link-linkedin.svg" alt="LinkedIn" width="220"></picture></a>
+</p>
 
-</div>
+<p align="center">
+  <a href="https://github.com/ndnimanima"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-github.svg"><img src="assets/light/link-github.svg" alt="GitHub" width="220"></picture></a>
+  <a href="mailto:YOUR_EMAIL"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-email.svg"><img src="assets/light/link-email.svg" alt="Email" width="220"></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://t.me/YOUR_TELEGRAM"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-contact-telegram.svg"><img src="assets/light/link-contact-telegram.svg" alt="Telegram" width="220"></picture></a>
+</p>
 
 ---
 
 ## 🤝 در حال جستجوی... / Looking For
 
-- 🔬 **Research Collaboration** در حوزه AI × Security
-- 🐛 **Bug Bounty Programs** برای تست و گزارش باگ
-- 💼 **Internship / Part-time** در تیم‌های SecOps, Platform, Backend
-- 🌱 **Open Source Contribution** در ابزارهای امنیتی و اتوماسیون
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/dark/looking-for.svg">
+    <img src="assets/light/looking-for.svg" alt="Looking For: research, bug bounty, internship, open source" width="840">
+  </picture>
+</p>
 
 ---
 
 <div align="center">
 
-### ⭐ اگر پروژه‌هایم براتون مفید بود، استار دادن فراموش نشه!
+### ⭐ اگر پروژه‌هایم برایتان مفید بود، ستاره دادن فراموش نشه!
 ### ⭐ If you find my projects useful, consider giving a star!
 
-<img src="https://komarev.com/ghpvc/?username=alireza-bakhari&label=Profile+Views&color=2E8B57&style=for-the-badge" alt="Profile Views" />
-
 </div>
-
----
-
-<details>
-<summary><b>📝 Conventional Commits / پیام‌های کامیت استاندارد</b></summary>
-
-```text
-feat:     إضافة قابلیت جدید
-fix:      رفع باگ
-docs:     تغییرات مستندات
-style:    فرمت‌بندی، نیم‌فاصله، importها
-refactor: بازنویسی کد بدون تغییر رفتار
-test:     اضافه/تغییر تست‌ها
-chore:    کارهای نگهداری (deps, build, config)
-perf:     بهینه‌سازی عملکرد
-security: ارتقای امنیت
-```
-
-</details>
