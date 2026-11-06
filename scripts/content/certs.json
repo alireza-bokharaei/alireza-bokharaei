@@ -1,0 +1,10 @@
+{
+  "title": "Certifications & Progress",
+  "items": [
+    {"name": "OSCP", "desc": "OffSec Certified Professional", "status": "Studying", "when": "Q2 2027", "percent": 60, "color": "#F0883E"},
+    {"name": "OSWE", "desc": "OffSec Web Expert", "status": "Planned", "when": "2027", "percent": 15, "color": "#A371F7"},
+    {"name": "eJPT / PNPT", "desc": "Penetration Testing", "status": "Done", "when": "Achieved", "percent": 100, "color": "#3FB950"},
+    {"name": "CompTIA Sec+", "desc": "Security Fundamentals", "status": "Done", "when": "Achieved", "percent": 100, "color": "#3FB950"},
+    {"name": "AWS SA", "desc": "Solutions Architect", "status": "Studying", "when": "Q4 2026", "percent": 70, "color": "#58A6FF"}
+  ]
+}

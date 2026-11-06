@@ -1,0 +1,10 @@
+{
+  "title": "Looking For",
+  "accent": "#58A6FF",
+  "items": [
+    {"head": "Research Collaboration", "desc": "AI x Security", "color": "#58A6FF"},
+    {"head": "Bug Bounty Programs", "desc": "testing and reporting bugs", "color": "#3FB950"},
+    {"head": "Internship / Part-time", "desc": "SecOps, Platform, Backend teams", "color": "#F0883E"},
+    {"head": "Open Source Contribution", "desc": "security tools and automation", "color": "#D2A8FF"}
+  ]
+}
