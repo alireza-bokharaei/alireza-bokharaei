@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 240" width="840" height="240">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F3F6FA"/></linearGradient></defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .item { opacity: 1; animation: rise 0.8s ease-out both; }
+    .num { animation: pulse 2.8s ease-in-out infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px) scale(0.96); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%,100% { opacity: .85; } 50% { opacity: 1; } }
+    .glow { animation: glow 3s ease-in-out infinite; }
+    @keyframes glow { 0%,100% { stroke-opacity: .25; } 50% { stroke-opacity: .9; } }
+    .sweep { animation: sweep 5s linear infinite; }
+    @keyframes sweep { from { transform: translateX(-300px); } to { transform: translateX(900px); } }
+  </style>
+  <rect x="0.75" y="0.75" width="838.5" height="238.5" rx="16" fill="url(#bg)" stroke="#D0D7DE"/>
+  <rect class="glow" x="0.75" y="0.75" width="838.5" height="238.5" rx="16" fill="none" stroke="#0969DA" stroke-width="1.5"/>
+  <rect class="sweep" x="0" y="0" width="160" height="240" fill="#0969DA" opacity="0.06"/>
+  <text x="40" y="50" font-size="20" font-weight="800" fill="#1F2328">alireza-bokharaei · GitHub Stats</text>
+  <text x="800" y="50" text-anchor="end" font-size="12" fill="#59636E">updated 2026-11-06</text>
+  <g class="item" style="animation-delay:0.00s"><text class="num" x="40" y="92" font-size="30" font-weight="800" fill="#0969DA">2</text><text x="40" y="114" font-size="14" fill="#59636E">Public repositories</text></g><g class="item" style="animation-delay:0.15s"><text class="num" x="290" y="92" font-size="30" font-weight="800" fill="#0969DA">0</text><text x="290" y="114" font-size="14" fill="#59636E">Total stars</text></g><g class="item" style="animation-delay:0.30s"><text class="num" x="540" y="92" font-size="30" font-weight="800" fill="#0969DA">0</text><text x="540" y="114" font-size="14" fill="#59636E">Commits (recent)</text></g><g class="item" style="animation-delay:0.45s"><text class="num" x="40" y="162" font-size="30" font-weight="800" fill="#0969DA">0</text><text x="40" y="184" font-size="14" fill="#59636E">Pull requests</text></g><g class="item" style="animation-delay:0.60s"><text class="num" x="290" y="162" font-size="30" font-weight="800" fill="#0969DA">0</text><text x="290" y="184" font-size="14" fill="#59636E">Issues</text></g><g class="item" style="animation-delay:0.75s"><text class="num" x="540" y="162" font-size="30" font-weight="800" fill="#0969DA">0</text><text x="540" y="184" font-size="14" fill="#59636E">Followers</text></g>
+</svg>
