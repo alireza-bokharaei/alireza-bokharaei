@@ -192,12 +192,12 @@
 
 </div>
 
-<p align="center"><b>[نام همکار]</b> — <sub>[نقش / تخصص]</sub></p>
+<p align="center"><b>[ نیما دلیر ]</b> — <sub>[مدرس هوش مصنوعی]</sub></p>
 
 
 <p align="center">
   <a href="https://t.me/ndnima"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-team-telegram.svg"><img src="assets/light/link-team-telegram.svg" alt="Telegram" width="220"></picture></a>
-  <a href="https://instagram.com/INSTAGRAM_ID"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-team-instagram.svg"><img src="assets/light/link-team-instagram.svg" alt="Instagram" width="220"></picture></a>
+  <a href="https://www.instagram.com/ndnima1/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-team-instagram.svg"><img src="assets/light/link-team-instagram.svg" alt="Instagram" width="220"></picture></a>
 </p>
 
 ---
