@@ -250,7 +250,6 @@
 
 ## 🌐 پورتفولیو و ارتباط / Portfolio & Contact
 
-
 <p align="center">
   <a href="https://alireza-bokharaei.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-portfolio.svg"><img src="assets/light/link-portfolio.svg" alt="Portfolio" width="220"></picture></a>
   <a href="YOUR_LINKEDIN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-linkedin.svg"><img src="assets/light/link-linkedin.svg" alt="LinkedIn" width="220"></picture></a>
@@ -263,6 +262,10 @@
 
 <p align="center">
   <a href="https://t.me/alireza_bokharaei_051"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-contact-telegram.svg"><img src="assets/light/link-contact-telegram.svg" alt="Telegram" width="220"></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://orcid.org/YOUR_ORCID_ID"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-orcid.svg"><img src="assets/light/link-orcid.svg" alt="ORCID" width="220"></picture></a>
 </p>
 
 ---
