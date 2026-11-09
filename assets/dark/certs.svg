@@ -1,87 +1,196 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 260" width="840" height="260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 804 480" width="804" height="480">
   <defs>
+    <!-- گرادیان‌های روشن -->
+    <linearGradient id="bglight" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3F6FC"/><stop offset="1" stop-color="#DCE5F5"/></linearGradient>
+    
+    <!-- گرادیان تیره (دقیقا بر اساس فایل شما) -->
     <linearGradient id="bgdark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#161E33"/></linearGradient>
+    
+    <!-- افکت درخشش -->
     <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.35"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
   </defs>
+
   <style>
+    :root {
+      /* تم روشن (پیش‌فرض) */
+      --bg-rect: url(#bglight);
+      --text-main: #14213D;
+      --text-sub: #374357;
+      --line-color: #0969DA;
+      
+      --card-bg: #FFFFFF;
+      --card-border: #D5DDEB;
+      --bar-track: #E3E9F3;
+      
+      --c-orange: #F0883E;
+      --c-purple: #A371F7;
+      --c-green: #3FB950;
+      --c-blue: #58A6FF;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        /* تم تیره (دقیقا بر اساس کد شما) */
+        --bg-rect: url(#bgdark);
+        --text-main: #F4F7FB;
+        --text-sub: #B8C4DA;
+        --line-color: #58A6FF;
+        
+        --card-bg: #1A2236;
+        --card-border: #2E3A55;
+        --bar-track: #2A3450;
+      }
+    }
+
     text { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
     .head { animation: glow 3s ease-in-out infinite; }
     @keyframes glow { 0%,100% { opacity: .85; } 50% { opacity: 1; } }
+    
     .card { transform-box: fill-box; transform-origin: center; opacity: 1; animation: flip 7s ease-in-out infinite; }
     @keyframes flip {
       0% { opacity: 0; transform: perspective(600px) rotateY(-70deg) translateY(10px); }
       12%, 70% { opacity: 1; transform: perspective(600px) rotateY(0deg) translateY(0); }
       85%, 100% { opacity: 0; transform: perspective(600px) rotateY(70deg) translateY(10px); }
     }
+    
     .ring { stroke-dasharray: 126; stroke-dashoffset: 126; animation: spin 7s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
     @keyframes spin { 0%,15% { stroke-dashoffset: 126; } 45%,100% { stroke-dashoffset: 0; } }
+    
     .bar { transform-box: fill-box; transform-origin: left center; transform: scaleX(0); animation: grow 7s ease-out infinite; }
     @keyframes grow { 0%,15% { transform: scaleX(0); } 45%,100% { transform: scaleX(1); } }
+    
     .shine { opacity: 0; animation: sweep 7s ease-in-out infinite; transform-box: fill-box; }
-    @keyframes sweep { 0%,40% { opacity: 0; transform: translateX(-160px); } 50% { opacity: 1; } 60%,100% { opacity: 0; transform: translateX(160px); } }
+    @keyframes sweep { 0%,40% { opacity: 0; transform: translateX(-200px); } 50% { opacity: 1; } 60%,100% { opacity: 0; transform: translateX(200px); } }
+
+    /* کلاس‌های کاربردی برای رنگ‌ها */
+    .bg-main { fill: var(--bg-rect); }
+    .txt-main { fill: var(--text-main); }
+    .txt-sub { fill: var(--text-sub); }
+    .bg-card { fill: var(--card-bg); stroke: var(--card-border); }
+    .bg-track { fill: var(--bar-track); }
   </style>
-  <rect width="840" height="260" rx="22" fill="url(#bgdark)"/>
-  <text class="head" x="28" y="42" font-size="22" font-weight="800" fill="#F4F7FB">Certifications &amp; Progress</text>
-  <rect x="28" y="50" width="80" height="3" rx="1.5" fill="#58A6FF"/>
-  <text x="812" y="42" text-anchor="end" font-size="14" fill="#B8C4DA">2 done | 3 in progress</text>
+
+  <!-- پس‌زمینه اصلی -->
+  <rect width="804" height="480" rx="22" class="bg-main"/>
+  
+  <!-- سربرگ -->
+  <text class="head" x="28" y="48" font-size="24" font-weight="800" fill="var(--text-main)">Certifications &amp; Progress</text>
+  <rect x="28" y="58" width="90" height="4" rx="2" fill="var(--line-color)"/>
+  <text x="776" y="48" text-anchor="end" font-size="15" fill="var(--text-sub)">2 done | 6 in progress</text>
+
+  <!-- ===== ردیف اول ===== -->
+
+  <!-- OSCP 30% Studying 2027 Q2 -->
   <g class="card" style="animation-delay:0.00s">
-    <rect x="26" y="72" width="150" height="150" rx="18" fill="#1A2236" stroke="#2E3A55" stroke-width="1.5"/>
-    <rect x="26" y="72" width="150" height="8" rx="4" fill="#F0883E"/>
-    <circle cx="101" cy="128" r="28" fill="#F0883E" opacity="0.18"/>
-    <circle cx="101" cy="128" r="20" fill="none" stroke="#F0883E" stroke-width="3" class="ring"/>
-    <text x="101" y="133" text-anchor="middle" font-size="15" font-weight="800" fill="#F0883E">60%</text>
-    <text x="101" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#F4F7FB">OSCP</text>
-    <text x="101" y="190" text-anchor="middle" font-size="11" fill="#B8C4DA">Studying | Q2 2027</text>
-    <rect x="37" y="200" width="128" height="6" rx="3" fill="#2A3450"/>
-    <rect class="bar" x="37" y="200" width="76.8" height="6" rx="3" fill="#F0883E" style="animation-delay:0.60s"/>
-    <rect class="shine" x="26" y="72" width="150" height="150" rx="18" fill="url(#sheen)" style="animation-delay:1.20s"/>
+    <rect x="26" y="84" width="180" height="180" rx="18" class="bg-card" stroke-width="1.5"/>
+    <rect x="26" y="84" width="180" height="10" rx="5" fill="var(--c-orange)"/>
+    <circle cx="116" cy="150" r="34" fill="var(--c-orange)" opacity="0.18"/>
+    <circle cx="116" cy="150" r="24" fill="none" stroke="var(--c-orange)" stroke-width="3" class="ring"/>
+    <text x="116" y="156" text-anchor="middle" font-size="16" font-weight="800" fill="var(--c-orange)">30%</text>
+    <text x="116" y="202" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-main)">OSCP</text>
+    <text x="116" y="222" text-anchor="middle" font-size="12" fill="var(--text-sub)">Studying | Q2 2027</text>
+    <rect x="37" y="238" width="158" height="8" rx="4" class="bg-track"/>
+    <rect class="bar" x="37" y="238" width="47.4" height="8" rx="4" fill="var(--c-orange)" style="animation-delay:0.60s"/>
+    <rect class="shine" x="26" y="84" width="180" height="180" rx="18" fill="url(#sheen)" style="animation-delay:1.20s"/>
   </g>
+
+  <!-- OSWE 50% Studying 2027 Q3 -->
   <g class="card" style="animation-delay:0.35s">
-    <rect x="190" y="72" width="150" height="150" rx="18" fill="#1A2236" stroke="#2E3A55" stroke-width="1.5"/>
-    <rect x="190" y="72" width="150" height="8" rx="4" fill="#A371F7"/>
-    <circle cx="265" cy="128" r="28" fill="#A371F7" opacity="0.18"/>
-    <circle cx="265" cy="128" r="20" fill="none" stroke="#A371F7" stroke-width="3" class="ring"/>
-    <text x="265" y="133" text-anchor="middle" font-size="15" font-weight="800" fill="#A371F7">15%</text>
-    <text x="265" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#F4F7FB">OSWE</text>
-    <text x="265" y="190" text-anchor="middle" font-size="11" fill="#B8C4DA">Planned | 2027</text>
-    <rect x="201" y="200" width="128" height="6" rx="3" fill="#2A3450"/>
-    <rect class="bar" x="201" y="200" width="19.2" height="6" rx="3" fill="#A371F7" style="animation-delay:0.95s"/>
-    <rect class="shine" x="190" y="72" width="150" height="150" rx="18" fill="url(#sheen)" style="animation-delay:1.55s"/>
+    <rect x="218" y="84" width="180" height="180" rx="18" class="bg-card" stroke-width="1.5"/>
+    <rect x="218" y="84" width="180" height="10" rx="5" fill="var(--c-purple)"/>
+    <circle cx="308" cy="150" r="34" fill="var(--c-purple)" opacity="0.18"/>
+    <circle cx="308" cy="150" r="24" fill="none" stroke="var(--c-purple)" stroke-width="3" class="ring"/>
+    <text x="308" y="156" text-anchor="middle" font-size="16" font-weight="800" fill="var(--c-purple)">50%</text>
+    <text x="308" y="202" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-main)">OSWE</text>
+    <text x="308" y="222" text-anchor="middle" font-size="12" fill="var(--text-sub)">Studying | Q3 2027</text>
+    <rect x="229" y="238" width="158" height="8" rx="4" class="bg-track"/>
+    <rect class="bar" x="229" y="238" width="79.0" height="8" rx="4" fill="var(--c-purple)" style="animation-delay:0.95s"/>
+    <rect class="shine" x="218" y="84" width="180" height="180" rx="18" fill="url(#sheen)" style="animation-delay:1.55s"/>
   </g>
+
+  <!-- eJPT / PNPT 50% Studying 2027 Q4 -->
   <g class="card" style="animation-delay:0.70s">
-    <rect x="354" y="72" width="150" height="150" rx="18" fill="#1A2236" stroke="#2E3A55" stroke-width="1.5"/>
-    <rect x="354" y="72" width="150" height="8" rx="4" fill="#3FB950"/>
-    <circle cx="429" cy="128" r="28" fill="#3FB950" opacity="0.18"/>
-    <circle cx="429" cy="128" r="20" fill="none" stroke="#3FB950" stroke-width="3" class="ring"/>
-    <text x="429" y="133" text-anchor="middle" font-size="12" font-weight="800" fill="#3FB950">100%</text>
-    <text x="429" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#F4F7FB">eJPT / PNPT</text>
-    <text x="429" y="190" text-anchor="middle" font-size="11" fill="#B8C4DA">Done | Achieved</text>
-    <rect x="365" y="200" width="128" height="6" rx="3" fill="#2A3450"/>
-    <rect class="bar" x="365" y="200" width="128.0" height="6" rx="3" fill="#3FB950" style="animation-delay:1.30s"/>
-    <rect class="shine" x="354" y="72" width="150" height="150" rx="18" fill="url(#sheen)" style="animation-delay:1.90s"/>
+    <rect x="410" y="84" width="180" height="180" rx="18" class="bg-card" stroke-width="1.5"/>
+    <rect x="410" y="84" width="180" height="10" rx="5" fill="var(--c-green)"/>
+    <circle cx="500" cy="150" r="34" fill="var(--c-green)" opacity="0.18"/>
+    <circle cx="500" cy="150" r="24" fill="none" stroke="var(--c-green)" stroke-width="3" class="ring"/>
+    <text x="500" y="156" text-anchor="middle" font-size="16" font-weight="800" fill="var(--c-green)">50%</text>
+    <text x="500" y="202" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-main)">eJPT / PNPT</text>
+    <text x="500" y="222" text-anchor="middle" font-size="12" fill="var(--text-sub)">Studying | Q4 2027</text>
+    <rect x="421" y="238" width="158" height="8" rx="4" class="bg-track"/>
+    <rect class="bar" x="421" y="238" width="79.0" height="8" rx="4" fill="var(--c-green)" style="animation-delay:1.30s"/>
+    <rect class="shine" x="410" y="84" width="180" height="180" rx="18" fill="url(#sheen)" style="animation-delay:1.90s"/>
   </g>
+
+  <!-- CompTIA Sec+ 70% Studying 2027 Q1 -->
   <g class="card" style="animation-delay:1.05s">
-    <rect x="518" y="72" width="150" height="150" rx="18" fill="#1A2236" stroke="#2E3A55" stroke-width="1.5"/>
-    <rect x="518" y="72" width="150" height="8" rx="4" fill="#3FB950"/>
-    <circle cx="593" cy="128" r="28" fill="#3FB950" opacity="0.18"/>
-    <circle cx="593" cy="128" r="20" fill="none" stroke="#3FB950" stroke-width="3" class="ring"/>
-    <text x="593" y="133" text-anchor="middle" font-size="12" font-weight="800" fill="#3FB950">100%</text>
-    <text x="593" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#F4F7FB">CompTIA Sec+</text>
-    <text x="593" y="190" text-anchor="middle" font-size="11" fill="#B8C4DA">Done | Achieved</text>
-    <rect x="529" y="200" width="128" height="6" rx="3" fill="#2A3450"/>
-    <rect class="bar" x="529" y="200" width="128.0" height="6" rx="3" fill="#3FB950" style="animation-delay:1.65s"/>
-    <rect class="shine" x="518" y="72" width="150" height="150" rx="18" fill="url(#sheen)" style="animation-delay:2.25s"/>
+    <rect x="602" y="84" width="180" height="180" rx="18" class="bg-card" stroke-width="1.5"/>
+    <rect x="602" y="84" width="180" height="10" rx="5" fill="var(--c-green)"/>
+    <circle cx="692" cy="150" r="34" fill="var(--c-green)" opacity="0.18"/>
+    <circle cx="692" cy="150" r="24" fill="none" stroke="var(--c-green)" stroke-width="3" class="ring"/>
+    <text x="692" y="156" text-anchor="middle" font-size="16" font-weight="800" fill="var(--c-green)">70%</text>
+    <text x="692" y="202" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-main)">CompTIA Sec+</text>
+    <text x="692" y="222" text-anchor="middle" font-size="12" fill="var(--text-sub)">Studying | Q1 2027</text>
+    <rect x="613" y="238" width="158" height="8" rx="4" class="bg-track"/>
+    <rect class="bar" x="613" y="238" width="110.6" height="8" rx="4" fill="var(--c-green)" style="animation-delay:1.65s"/>
+    <rect class="shine" x="602" y="84" width="180" height="180" rx="18" fill="url(#sheen)" style="animation-delay:2.25s"/>
   </g>
+
+  <!-- ===== ردیف دوم ===== -->
+
+  <!-- AWS SA 90% Studying 2027 Q1 -->
   <g class="card" style="animation-delay:1.40s">
-    <rect x="682" y="72" width="150" height="150" rx="18" fill="#1A2236" stroke="#2E3A55" stroke-width="1.5"/>
-    <rect x="682" y="72" width="150" height="8" rx="4" fill="#58A6FF"/>
-    <circle cx="757" cy="128" r="28" fill="#58A6FF" opacity="0.18"/>
-    <circle cx="757" cy="128" r="20" fill="none" stroke="#58A6FF" stroke-width="3" class="ring"/>
-    <text x="757" y="133" text-anchor="middle" font-size="15" font-weight="800" fill="#58A6FF">70%</text>
-    <text x="757" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#F4F7FB">AWS SA</text>
-    <text x="757" y="190" text-anchor="middle" font-size="11" fill="#B8C4DA">Studying | Q4 2026</text>
-    <rect x="693" y="200" width="128" height="6" rx="3" fill="#2A3450"/>
-    <rect class="bar" x="693" y="200" width="89.6" height="6" rx="3" fill="#58A6FF" style="animation-delay:2.00s"/>
-    <rect class="shine" x="682" y="72" width="150" height="150" rx="18" fill="url(#sheen)" style="animation-delay:2.60s"/>
+    <rect x="26" y="274" width="180" height="180" rx="18" class="bg-card" stroke-width="1.5"/>
+    <rect x="26" y="274" width="180" height="10" rx="5" fill="var(--c-blue)"/>
+    <circle cx="116" cy="340" r="34" fill="var(--c-blue)" opacity="0.18"/>
+    <circle cx="116" cy="340" r="24" fill="none" stroke="var(--c-blue)" stroke-width="3" class="ring"/>
+    <text x="116" y="346" text-anchor="middle" font-size="16" font-weight="800" fill="var(--c-blue)">90%</text>
+    <text x="116" y="392" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-main)">AWS SA</text>
+    <text x="116" y="412" text-anchor="middle" font-size="12" fill="var(--text-sub)">Studying | Q1 2027</text>
+    <rect x="37" y="428" width="158" height="8" rx="4" class="bg-track"/>
+    <rect class="bar" x="37" y="428" width="142.2" height="8" rx="4" fill="var(--c-blue)" style="animation-delay:2.00s"/>
+    <rect class="shine" x="26" y="274" width="180" height="180" rx="18" fill="url(#sheen)" style="animation-delay:2.60s"/>
+  </g>
+
+  <!-- Network+ 90% Studying 2027 Q1 -->
+  <g class="card" style="animation-delay:1.75s">
+    <rect x="218" y="274" width="180" height="180" rx="18" class="bg-card" stroke-width="1.5"/>
+    <rect x="218" y="274" width="180" height="10" rx="5" fill="var(--c-orange)"/>
+    <circle cx="308" cy="340" r="34" fill="var(--c-orange)" opacity="0.18"/>
+    <circle cx="308" cy="340" r="24" fill="none" stroke="var(--c-orange)" stroke-width="3" class="ring"/>
+    <text x="308" y="346" text-anchor="middle" font-size="16" font-weight="800" fill="var(--c-orange)">90%</text>
+    <text x="308" y="392" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-main)">Network+</text>
+    <text x="308" y="412" text-anchor="middle" font-size="12" fill="var(--text-sub)">Studying | Q1 2027</text>
+    <rect x="229" y="428" width="158" height="8" rx="4" class="bg-track"/>
+    <rect class="bar" x="229" y="428" width="142.2" height="8" rx="4" fill="var(--c-orange)" style="animation-delay:2.35s"/>
+    <rect class="shine" x="218" y="274" width="180" height="180" rx="18" fill="url(#sheen)" style="animation-delay:2.95s"/>
+  </g>
+
+  <!-- Lpic1 100% Done | Achieved 2026 -->
+  <g class="card" style="animation-delay:2.10s">
+    <rect x="410" y="274" width="180" height="180" rx="18" class="bg-card" stroke-width="1.5"/>
+    <rect x="410" y="274" width="180" height="10" rx="5" fill="var(--c-green)"/>
+    <circle cx="500" cy="340" r="34" fill="var(--c-green)" opacity="0.18"/>
+    <circle cx="500" cy="340" r="24" fill="none" stroke="var(--c-green)" stroke-width="3" class="ring"/>
+    <text x="500" y="346" text-anchor="middle" font-size="13" font-weight="800" fill="var(--c-green)">100%</text>
+    <text x="500" y="392" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-main)">Lpic1</text>
+    <text x="500" y="412" text-anchor="middle" font-size="12" fill="var(--text-sub)">Done | Achieved 2026</text>
+    <rect x="421" y="428" width="158" height="8" rx="4" class="bg-track"/>
+    <rect class="bar" x="421" y="428" width="158.0" height="8" rx="4" fill="var(--c-green)" style="animation-delay:2.70s"/>
+    <rect class="shine" x="410" y="274" width="180" height="180" rx="18" fill="url(#sheen)" style="animation-delay:3.30s"/>
+  </g>
+
+  <!-- CEH-v12 100% Done | Achieved 2026 -->
+  <g class="card" style="animation-delay:2.45s">
+    <rect x="602" y="274" width="180" height="180" rx="18" class="bg-card" stroke-width="1.5"/>
+    <rect x="602" y="274" width="180" height="10" rx="5" fill="var(--c-green)"/>
+    <circle cx="692" cy="340" r="34" fill="var(--c-green)" opacity="0.18"/>
+    <circle cx="692" cy="340" r="24" fill="none" stroke="var(--c-green)" stroke-width="3" class="ring"/>
+    <text x="692" y="346" text-anchor="middle" font-size="13" font-weight="800" fill="var(--c-green)">100%</text>
+    <text x="692" y="392" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-main)">CEH-v12</text>
+    <text x="692" y="412" text-anchor="middle" font-size="12" fill="var(--text-sub)">Done | Achieved 2026</text>
+    <rect x="613" y="428" width="158" height="8" rx="4" class="bg-track"/>
+    <rect class="bar" x="613" y="428" width="158.0" height="8" rx="4" fill="var(--c-green)" style="animation-delay:3.05s"/>
+    <rect class="shine" x="602" y="274" width="180" height="180" rx="18" fill="url(#sheen)" style="animation-delay:3.65s"/>
   </g>
 </svg>
