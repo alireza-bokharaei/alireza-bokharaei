@@ -31,7 +31,7 @@
     <polyline class="b2" points="700,30 672,110 698,110 664,230 740,96 712,96 748,30"/>
     <polyline class="b3" points="470,60 452,120 474,120 448,200 512,116 488,116 516,60"/>
   </g>
-  <text x="48" y="92" font-size="44" font-weight="800" fill="url(#nmdark)">Alireza Bakhari</text>
+  <text x="48" y="92" font-size="44" font-weight="800" fill="url(#nmdark)">Alireza Bokharaei</text>
   <text x="48" y="130" font-size="20" font-weight="600" fill="#B8C4DA">Computer Science Student @ University of Oxford</text>
   <text class="line2" x="48" y="158" font-size="18" font-weight="600" fill="#B8C4DA">Python Developer | Linux | Networking | Cybersecurity</text>
   <text x="48" y="186" font-size="16" fill="#B8C4DA" opacity="0.9">AI &amp; Automation with n8n<tspan class="cursor"> |</tspan></text>
