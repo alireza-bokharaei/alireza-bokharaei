@@ -13,6 +13,6 @@
   <circle cx="46" cy="42" r="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.2"/>
   <ellipse cx="46" cy="30" rx="21.0" ry="12.6" fill="url(#syoutube-dark-21257)"/>
   <path transform="translate(29.00,25.00) scale(1.4167)" fill="#FFFFFF" fill-rule="evenodd" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#F4F7FB">YOUTUBE</text>
+  <text x="92" y="48" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#F4F7FB">YOUTUBE</text>
   <rect x="94" y="57" width="46" height="3.5" rx="1.75" fill="url(#ayoutube-dark-21257)"/>
 </svg>
