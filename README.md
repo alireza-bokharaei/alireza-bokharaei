@@ -2,10 +2,10 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero.svg">
-  <img src="assets/light/hero.svg" alt="Alireza Bakhari - Computer Science Student at the University of Oxford" width="840">
+  <img src="assets/light/hero.svg" alt="Alireza Bokharaei - Computer Science Student at the University of Oxford" width="840">
 </picture>
 
-# 👋 سلام! من علیرضا بخارائی هستم / Hi, I'm Alireza Bakhari
+# 👋 سلام! من علیرضا بخارائی هستم / Hi, I'm Alireza Bokharaei
 
 </div>
 
@@ -31,7 +31,7 @@
 - مشارکت در **ابزارهای امنیتی و چارچوب‌های اتوماسیون متن‌باز**
 - پژوهش درباره **اتوماسیون امنیت مبتنی بر هوش مصنوعی**
 
-💡 **فلسفه:** «کد تمیز، معماری مقیاس‌پذیر، یادگیری بی‌پایان»
+💡 **فلسفه:** «کد تمیز، معماری مقیاس‌پذیر، امنیت بیشتر، یادگیری بی‌پایان»
 
 </div>
 
@@ -52,7 +52,7 @@
 - Contribute to **open-source security tools** and **automation frameworks**
 - Research on **AI-driven security automation**
 
-💡 **Philosophy:** "Clean Code, Scalable Architecture, Continuous Learning"
+💡 **Philosophy:** "Clean Code, Scalable Architecture, More security, Continuous Learning"
 
 </details>
 
@@ -205,7 +205,7 @@
 ## 📚 کانال‌های آموزشی / Educational Channels
 
 <p align="center">
-  <a href="https://www.youtube.com/nextgen-ain8n"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-youtube.svg"><img src="assets/light/link-channel-youtube.svg" alt="YouTube" width="220"></picture></a>
+  <a href="https://www.youtube.com/@nextgen-ain8n"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-youtube.svg"><img src="assets/light/link-channel-youtube.svg" alt="YouTube" width="220"></picture></a>
   <a href="https://t.me/nextgen_ain8n"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-telegram.svg"><img src="assets/light/link-channel-telegram.svg" alt="Telegram" width="220"></picture></a>
 </p>
 
