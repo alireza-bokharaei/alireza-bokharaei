@@ -230,8 +230,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/dark/stats.svg">
-    <img src="assets/light/stats.svg" alt="GitHub stats" width="840">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=alireza-bokharaei&show_icons=true&theme=dark">
+    <img src="https://github-readme-stats.vercel.app/api?username=alireza-bokharaei&show_icons=true&theme=light" alt="GitHub stats" width="840">
   </picture>
 </p>
 
