@@ -265,7 +265,7 @@
 </p>
 
 <p align="center">
-  <a href="https://orcid.org/YOUR_ORCID_ID"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-orcid.svg"><img src="assets/light/link-orcid.svg" alt="ORCID" width="220"></picture></a>
+  <a href="https://orcid.org/0009-0000-5162-6255"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-orcid.svg"><img src="assets/light/link-orcid.svg" alt="ORCID" width="220"></picture></a>
 </p>
 
 ---
