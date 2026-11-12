@@ -188,7 +188,7 @@
 
 <div dir="rtl" align="center">
 
-با همکارم **[نام همکار]**، محتوای آموزشی رایگان در حوزه **AI و اتوماسیون** تولید می‌کنیم.
+با همکارم **[نیما دلیر]**، محتوای آموزشی رایگان در حوزه **AI و اتوماسیون** تولید می‌کنیم.
 
 </div>
 
@@ -252,7 +252,7 @@
 
 <p align="center">
   <a href="https://alireza-bokharaei.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-portfolio.svg"><img src="assets/light/link-portfolio.svg" alt="Portfolio" width="220"></picture></a>
-  <a href="YOUR_LINKEDIN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-linkedin.svg"><img src="assets/light/link-linkedin.svg" alt="LinkedIn" width="220"></picture></a>
+  <a href="https://www.linkedin.com/in/alireza-bokharaei"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-linkedin.svg"><img src="assets/light/link-linkedin.svg" alt="LinkedIn" width="220"></picture></a>
 </p>
 
 <p align="center">
