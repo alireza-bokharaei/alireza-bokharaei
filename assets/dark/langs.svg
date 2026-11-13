@@ -8,6 +8,6 @@
   <rect x="0.75" y="0.75" width="838.5" height="198.5" rx="16" fill="url(#bg)" stroke="#30363D"/>
   <text x="40" y="45" font-size="18" font-weight="800" fill="#E6EDF3">Most Used Languages</text>
   <rect x="40" y="70" width="760" height="14" rx="7" fill="#21262D"/>
-  <g style="clip-path: inset(0 round 7px)"><rect class="seg" x="40.0" y="70" width="442.9" height="14" fill="#E34C26"/><rect class="seg" x="482.9" y="70" width="317.1" height="14" fill="#3572A5"/></g>
-  <circle cx="46" cy="119" r="6" fill="#E34C26"/><text x="60" y="124" font-size="15" font-weight="700" fill="#E6EDF3">HTML</text><text x="240" y="124" text-anchor="end" font-size="15" fill="#8B949E">58.3%</text><circle cx="306" cy="119" r="6" fill="#3572A5"/><text x="320" y="124" font-size="15" font-weight="700" fill="#E6EDF3">Python</text><text x="500" y="124" text-anchor="end" font-size="15" fill="#8B949E">41.7%</text>
+  <g style="clip-path: inset(0 round 7px)"><rect class="seg" x="40.0" y="70" width="386.4" height="14" fill="#3572A5"/><rect class="seg" x="426.4" y="70" width="373.6" height="14" fill="#E34C26"/></g>
+  <circle cx="46" cy="119" r="6" fill="#3572A5"/><text x="60" y="124" font-size="15" font-weight="700" fill="#E6EDF3">Python</text><text x="240" y="124" text-anchor="end" font-size="15" fill="#8B949E">50.8%</text><circle cx="306" cy="119" r="6" fill="#E34C26"/><text x="320" y="124" font-size="15" font-weight="700" fill="#E6EDF3">HTML</text><text x="500" y="124" text-anchor="end" font-size="15" fill="#8B949E">49.2%</text>
 </svg>
