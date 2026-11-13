@@ -149,31 +149,36 @@
   </thead>
   <tbody>
   <tr>
-    <td align="center"><b><a href="https://github.com/alireza-bokharaei/secauto">SecAuto</a></b></td>
+    <!--<td align="center"><b><a href="#https://github.com/alireza-bokharaei/secauto">SecAuto</a></b></td>-->
+    <td align="center"><b>SecAuto</b></td>
     <td align="right" dir="rtl">فریم‌ورک اتوماسیون امنیت: اسکن، انومراسیون و گزارش‌گیری</td>
     <td align="center"><code>Python, n8n, Docker, PostgreSQL</code></td>
     <td align="center">🟢 فعال / Active</td>
   </tr>
   <tr>
-    <td align="center"><b><a href="https://github.com/alireza-bokharaei/offline-ai-agents">OfflineAI-Agents</a></b></td>
+    <!--<td align="center"><b><a href="#https://github.com/alireza-bokharaei/offline-ai-agents">OfflineAI-Agents</a></b></td> -->
+    <td align="center"><b>OfflineAI-Agents</b></td>
     <td align="right" dir="rtl">ایجنت‌های محلی با Ollama و LangChain (بدون نیاز به اینترنت)</td>
     <td align="center"><code>Python, Ollama, LangChain, FastAPI</code></td>
     <td align="center">🟢 فعال / Active</td>
   </tr>
   <tr>
-    <td align="center"><b><a href="https://github.com/alireza-bokharaei/homelab-infra">Homelab-Infra</a></b></td>
+    <!--<td align="center"><b><a href="#https://github.com/alireza-bokharaei/homelab-infra">Homelab-Infra</a></b></td>-->
+    <td align="center"><b>Homelab-Infra</b></td>
     <td align="right" dir="rtl">کدهای Terraform و Ansible برای هوم‌لب Proxmox</td>
     <td align="center"><code>Terraform, Ansible, Proxmox</code></td>
     <td align="center">🟡 در حال کار / WIP</td>
   </tr>
   <tr>
-    <td align="center"><b><a href="https://github.com/alireza-bokharaei/netrecon">NetRecon</a></b></td>
+    <!--<td align="center"><b><a href="#https://github.com/alireza-bokharaei/netrecon">NetRecon</a></b></td>-->
+    <td align="center"><b>NetRecon</b></td>
     <td align="right" dir="rtl">ابزار کشف شبکه و آسیب‌پذیری برای Bug Bounty</td>
     <td align="center"><code>Go, Nmap, Nuclei, SQLite</code></td>
     <td align="center">🔴 برنامه‌ریزی / Planning</td>
   </tr>
   <tr>
-    <td align="center"><b><a href="https://github.com/alireza-bokharaei/pysectools">PySecTools</a></b></td>
+    <!--<td align="center"><b><a href="https://github.com/alireza-bokharaei/pysectools">PySecTools</a></b></td>-->
+    <td align="center"><b>PySecTools</b></td>
     <td align="right" dir="rtl">کتابخانه ابزارهای امنیتی پایتون (Hash, Crypto, Enum)</td>
     <td align="center"><code>Python, Click, Rich</code></td>
     <td align="center">🟢 پایدار / Stable</td>
