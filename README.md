@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero.svg">
-  <img src="assets/light/hero.svg" alt="Alireza Bokharaei - Computer Science Student at the University of Oxford" width="840">
+  <img src="assets/light/hero.svg" alt="Alireza Bokharaei - Computer Science Student " width="840">
 </picture>
 
 # 👋 سلام! من علیرضا بخارائی هستم / Hi, I'm Alireza Bokharaei
@@ -15,7 +15,7 @@
 
 <div dir="rtl" align="right">
 
-**دانشجوی علوم کامپیوتر در دانشگاه آکسفورد** با تمرکز بر توسعه نرم‌افزار، زیرساخت و امنیت سایبری.
+**دانشجوی علوم کامپیوتر** با تمرکز بر توسعه نرم‌افزار، زیرساخت و امنیت سایبری.
 
 🔭 **فعالیت‌های فعلی:**
 
@@ -38,7 +38,7 @@
 <details open>
 <summary><b>🇬🇧 English</b></summary>
 
-**Computer Science Student at the University of Oxford** focusing on software development, infrastructure and cybersecurity.
+**Computer Science Student ** focusing on software development, infrastructure and cybersecurity.
 
 🔭 **Current focus:**
 - **Python development** (FastAPI, Django, CLI tools, AsyncIO)
