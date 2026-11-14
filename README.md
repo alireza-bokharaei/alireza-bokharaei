@@ -214,9 +214,9 @@
   <a href="https://t.me/nextgen_ain8n"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-telegram.svg"><img src="assets/light/link-channel-telegram.svg" alt="Telegram" width="220"></picture></a>
 </p>
 
-<p align="center">
+<!--<p align="center">
   <a href="YOUR_INSTAGRAM_LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-instagram.svg"><img src="assets/light/link-channel-instagram.svg" alt="Instagram" width="220"></picture></a>
-</p>
+</p>-->
 
 <div dir="rtl" align="right">
 
