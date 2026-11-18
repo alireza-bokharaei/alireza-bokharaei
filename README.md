@@ -232,13 +232,24 @@
 ---
 
 ## 📊 آمار گیت‌هاب / GitHub Stats
-
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-tan.vercel.app/api?username=ndnimanima&show_icons=true&theme=tokyonight&locale=fa&hide_border=true">
+    <img src="https://github-readme-stats-eight-tan.vercel.app/api?username=ndnimanima&show_icons=true&theme=default&locale=fa&hide_border=true" alt="GitHub Stats for ndnimanima" width="440">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-tan.vercel.app/api/top-langs/?username=ndnimanima&layout=compact&theme=tokyonight&langs_count=8&hide_border=true">
+    <img src="https://github-readme-stats-eight-tan.vercel.app/api/top-langs/?username=ndnimanima&layout=compact&theme=default&langs_count=8&hide_border=true" alt="Top Languages for ndnimanima" width="440">
+  </picture>
+</p>
+
+
+<!--  p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=alireza-bokharaei&show_icons=true&theme=dark">
     <img src="https://github-readme-stats.vercel.app/api?username=alireza-bokharaei&show_icons=true&theme=light" alt="GitHub stats" width="840">
   </picture>
-</p>
+</p -->
 
 ---
 
